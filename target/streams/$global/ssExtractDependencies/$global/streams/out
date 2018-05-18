@@ -1,0 +1,1 @@
+[error] sbt.librarymanagement.ResolveException: unresolved dependency: com.typesafe.scala-logging#scala-logging_2.12;3.4.0: not found

@@ -1,0 +1,12 @@
+target/
+*.class
+.DS_Store
+*.iml
+*.ipr
+*.iws
+.idea
+out
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/

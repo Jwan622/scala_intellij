@@ -7,4 +7,11 @@ object tutorial_7 extends App {
 		println(s"Remaining donuts to be baked = $numberOfDonutsToBake")
 		numberOfDonutsToBake -= 1
 	}
+
+	println("\nStep 2: How to use do while loop in Scala")
+	var numberOfDonutsBaked = 0
+	do {
+		numberOfDonutsBaked += 1
+		println(s"Number of donuts baked = $numberOfDonutsBaked")
+	} while (numberOfDonutsBaked < 0)
 }

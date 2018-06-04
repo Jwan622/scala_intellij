@@ -42,3 +42,5 @@ object functionsHigherOrderII extends App {
 	println("\nStep 6: How to call function with call-by-name parameter")
 	println(s"Total cost of order = £${placeOrderWithByNameParameter(listOrders)(usdToGbp)}")
 }
+
+//if you want ./sbt and then console, you can run this like this: com.allaboutscala.chapter.three.functionsHigherOrderII.main(Array[String]())
